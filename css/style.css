@@ -11,7 +11,7 @@ body {
 	width: 710px;
 	background-color: white;
 	margin: 10px auto;
-	border: 2px solid black;
+	/* border: 1px solid black; */
 	padding: 10px; }
 
 #banner {
@@ -33,7 +33,7 @@ body {
 .copyright {
     font-size: 90%;
     text-align: right; 
-	margin: 0; }
+	margin: 10px; }
 	
 /* the styles for the table*/
 
@@ -45,29 +45,22 @@ caption {
 	font-size: 150%;
 	color: #4766B8; }
 
-td, th {
-	border: 1px solid black;
-	padding: .2em .7em;
-	font-size: 95%; }	
-	
 .alignRight {
 	text-align: right; }
 
-
-.main  {
-    margin left : 150px 
-}
-
-.table {
-    border: 1 px ;
-    border-color: black;
-    border-collapse: collapse;   
-}
-.footer{
-    margin-top: .5ems;
-    border-top: 2px;
-    color: grey;
-    padding-top: .7ems;
+div{
+    border:1px solid black ;
+    text-align: center;
     
 }
+button {
+   background-color: grey;
+   color: black;
+   border-color: blue;
+   border-radius: 90%;
+}
+.row {
+    border: 1px solid black;
+    padding: 5px;
+  }
 /*Nicki Samantha Abels*/
