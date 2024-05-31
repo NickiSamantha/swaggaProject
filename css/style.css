@@ -2,65 +2,86 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-	font-size: 85%;
-	background-color: #4766B8;
+    font-size: 85%;
+    background-color: #4766B8;
     margin: 0;
-	padding: 0; }
+    padding: 0;
+}
 
 #page {
-	width: 710px;
-	background-color: white;
-	margin: 10px auto;
-	/* border: 1px solid black; */
-	padding: 10px; }
+    width: 710px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+}
 
 #banner {
     margin-bottom: 1em;
-	height: 70px }
+    height: 70px;
+}
 
 #navigation {
-	margin-top: 1em;
-	height: 45px;
-	background-color: white; }
-	
+    margin-top: 1em;
+    height: 45px;
+    background-color: white;
+}
+
 #sidebar {
-	width: 150px;
-	height: 370px;
-	background-color: white;
-	margin-bottom: .7em;
-	float: left; }
+    width: 150px;
+    height: 370px;
+    background-color: white;
+    margin-bottom: .7em;
+    float: left;
+}
 
 .copyright {
     font-size: 90%;
-    text-align: right; 
-	margin: 10px; }
-	
-/* the styles for the table*/
+    text-align: right;
+    margin: 10px;
+}
+
+/* the styles for the table */
 
 caption {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	margin-top: 25px;
-	margin-bottom: 10px;
-	font-size: 150%;
-	color: #4766B8; }
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 150%;
+    color: #4766B8;
+}
 
 .alignRight {
-	text-align: right; }
+    text-align: right;
+}
 
-div{
-    border:1px solid black ;
-    text-align: center;
-    
-}
-button {
-   background-color: grey;
-   color: black;
-   border-color: blue;
-   border-radius: 90%;
-}
 .row {
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid black;
+    padding: 0;
+}
+
+.col-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
     padding: 5px;
-  }
-/*Nicki Samantha Abels*/
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.col-2 input, .col-2 select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+button {
+    background-color: grey;
+    color: black;
+    border-color: blue;
+    border-radius: 90%;
+}
+.col-8 {
+    border: 1px solid black;
+}
