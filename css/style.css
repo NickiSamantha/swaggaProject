@@ -1,4 +1,4 @@
-/* Examination number */
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -6,12 +6,12 @@ body {
     background-color: #4766B8;
     margin: 0;
     padding: 0;
+    
 }
-
 #page {
-    width: 710px;
+    width: 850px;
     background-color: white;
-    margin: 10px auto;
+    margin:start;
     padding: 10px;
 }
 
@@ -31,7 +31,7 @@ body {
     height: 370px;
     background-color: white;
     margin-bottom: .7em;
-    float: left;
+    float: left; 
 }
 
 .copyright {
@@ -40,7 +40,7 @@ body {
     margin: 10px;
 }
 
-/* the styles for the table */
+
 
 caption {
     font-family: Arial, Helvetica, sans-serif;
@@ -54,34 +54,9 @@ caption {
 .alignRight {
     text-align: right;
 }
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    padding: 0;
+.row{
+    margin-right: 1000px;
 }
-
-.col-2 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
-    padding: 5px;
-    border: 1px solid black;
-    box-sizing: border-box;
-}
-
-.col-2 input, .col-2 select {
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-button {
-    background-color: grey;
-    color: black;
-    border-color: blue;
-    border-radius: 90%;
-}
-.col-8 {
-    border: 1px solid black;
+.row div{
+    border: 1px solid #000;
 }
